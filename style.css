@@ -1,0 +1,23 @@
+body {
+  background-color: #212427;
+}
+
+h4 {
+  margin-top: 25px;
+  text-align: center;
+  color: white;
+}
+
+.outter {
+  width:100%
+}
+
+.col-sm-10 {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#show-weather {
+  margin-left: 50px;
+}
