@@ -24,7 +24,7 @@ async function getInfo() {
   const zipcode = input.value;
   const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?zip=${zipcode},us&appid=${access}&units=imperial`);
 
-  if (res.status === 404) {
+  if (res.status === 400 || res.status === 404) {
     alert("Zip code is not valid. Please try again.");
     input.value = "";
   } else {
