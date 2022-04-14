@@ -1,3 +1,5 @@
+const access = "a976a3a413808e9bce7acd3ce8f361bc";
+
 var input = document.getElementById("zipcode");
 const button = document.getElementById("show-weather");
 
@@ -15,8 +17,6 @@ const current = document.getElementById("temp-current");
 const minimum = document.getElementById("temp-min");
 const maximum = document.getElementById("temp-max");
 const humidity = document.getElementById("humidity");
-
-const access = "a976a3a413808e9bce7acd3ce8f361bc";
 
 button.addEventListener('click', () => getInfo());
 
