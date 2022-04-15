@@ -1,6 +1,7 @@
 body {
   background-image: url("images/mtn.jpg");
-  background-size: 1300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h4 {
